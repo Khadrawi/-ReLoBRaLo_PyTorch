@@ -47,10 +47,10 @@ class RELOBRALO():
         Output:
             None
         '''
-        assert len(loss_list) == self.num_losses, 'Length of losses in the input list should\
-             be equal to self.num_losses'
-        assert all(isinstance(x, torch.Tensor) for x in loss_list), 'Each loss in loss_list\
-             must be a salar tensor'
+        assert len(loss_list) == self.num_losses, 'Length of losses in the input list should'\
+             ' be equal to self.num_losses'
+        assert all(isinstance(x, torch.Tensor) for x in loss_list), 'Each loss in loss_list'\
+             ' must be a salar tensor'
 
         for i in range(self.num_losses):
             self.l0['l0_'+str(i)] = loss_list[i].reshape(1)
