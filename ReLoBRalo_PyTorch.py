@@ -35,7 +35,7 @@ class RELOBRALO():
             .
             .
             .
-            if epoch == 0 (or 1):
+            if epoch == 0:
                 relobralo.set_l0([list of losses(scalar values) in the trainng problem])
         .
         .
