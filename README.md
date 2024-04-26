@@ -1,4 +1,4 @@
-# -ReLoBRaLo_PyTorch
+# ReLoBRaLo_PyTorch
 PyTorch implementation of  ReLoBRaLo
 
 This is a PyTorch implementation of the ReLoBRalo multi-objective loss balancing for Physics-Informed Deep Learning [*] proposed by Rafael Bischof.
